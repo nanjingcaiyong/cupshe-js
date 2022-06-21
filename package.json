@@ -5,6 +5,7 @@
   "author": "caiyong <yong.cai@kapeixi.com>",
   "main": "index.js",
   "typings": "./index.d.ts",
+  "type": "module",
   "homepage": "https://nanjingcaiyong.github.io/cupshe-js",
   "bugs": {
     "url": "https://github.com/nanjingcaiyong/cupshe-js/issues",
@@ -33,7 +34,8 @@
     "prepare": "husky install",
     "lint": "eslint --ext .js,.ts lib",
     "lint:fix": "eslint --fix --ext .js,.ts lib",
-    "release": "standard-version --infile docs/CHANGELOG.md"
+    "release": "standard-version --infile docs/CHANGELOG.md",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "dependencies": {
     "big.js": "^6.2.0",
@@ -46,12 +48,15 @@
     "@commitlint/config-conventional": "^17.0.2",
     "@docsearch/css": "^3.1.0",
     "@docsearch/js": "^3.1.0",
+    "@types/jest": "^28.1.2",
     "@typescript-eslint/eslint-plugin": "^5.28.0",
     "@typescript-eslint/parser": "^5.28.0",
     "commitizen": "^4.2.4",
     "core-js": "^3.21.1",
+    "cross-env": "^7.0.3",
     "eslint": "^8.17.0",
     "husky": "^8.0.1",
+    "jest": "^28.1.1",
     "lint-staged": "^13.0.1",
     "standard-version": "^9.5.0",
     "vitepress": "^1.0.0-alpha.2"
