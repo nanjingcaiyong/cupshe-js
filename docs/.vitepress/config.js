@@ -69,6 +69,20 @@ const config = defineConfig({
           }
         ]
       },
+      {
+        text: 'Terminal',
+        collapsible: true,
+        items: [
+          { 
+            text: 'isMobile', 
+            link: '/Terminal/isMobile.md' 
+          },
+          { 
+            text: 'getTerminal', 
+            link: '/Terminal/getTerminal.md' 
+          },
+        ]
+      },
     ],
     nav:  [
       { 
