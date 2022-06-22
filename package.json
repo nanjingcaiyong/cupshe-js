@@ -1,6 +1,6 @@
 {
   "name": "cupshe-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "cupshe-js utils helper",
   "author": "caiyong <yong.cai@kapeixi.com>",
   "main": "index.js",

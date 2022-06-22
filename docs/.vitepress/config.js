@@ -52,6 +52,20 @@ const config = defineConfig({
         ]
       },
       {
+        text: 'Terminal',
+        collapsible: true,
+        items: [
+          { 
+            text: 'isMobile', 
+            link: '/Terminal/isMobile.md' 
+          },
+          { 
+            text: 'getTerminal', 
+            link: '/Terminal/getTerminal.md' 
+          },
+        ]
+      },
+      {
         text: 'Other',
         collapsible: true,
         items: [
@@ -68,21 +82,7 @@ const config = defineConfig({
             link: '/Other/storage.md' 
           }
         ]
-      },
-      {
-        text: 'Terminal',
-        collapsible: true,
-        items: [
-          { 
-            text: 'isMobile', 
-            link: '/Terminal/isMobile.md' 
-          },
-          { 
-            text: 'getTerminal', 
-            link: '/Terminal/getTerminal.md' 
-          },
-        ]
-      },
+      }
     ],
     nav:  [
       { 

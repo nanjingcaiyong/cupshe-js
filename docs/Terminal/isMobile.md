@@ -1,4 +1,4 @@
-<Breadcrumb category="Terminal" title="div"/>
+<Breadcrumb category="Terminal" title="isMobile"/>
 
 <script setup>
 import Breadcrumb from '../.vitepress/components/Breadcrumb.vue'
