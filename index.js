@@ -10,4 +10,4 @@ export * as Regex from './lib/regex.js'
 
 export { Storage } from './lib/storage.js'
 
-export { isMobile, getTerminal } from './lib/terminal.js'
+export { isMobile, getTerminal, canWebp } from './lib/terminal.js'
